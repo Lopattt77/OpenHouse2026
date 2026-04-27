@@ -108,6 +108,15 @@ body {
   color: var(--ink);
 }
 
+.cover__subtitle {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
 .cover__host {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: clamp(1.1rem, 3.5vw, 1.6rem);
@@ -267,6 +276,13 @@ body {
 .invite-event {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: clamp(1.7rem, 5.5vw, 2.4rem);
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.2;
+}
+.invite-event-sub {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.5rem, 5.5vw, 2.4rem);
   font-weight: 600;
   color: var(--ink);
   line-height: 1.2;
